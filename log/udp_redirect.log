@@ -1,0 +1,3 @@
+Ground Control IP adress: f.root-servers.net. c.root-servers.net. a.root-servers.net. b.root-servers.net. g.root-servers.net. l.root-servers.net. m.root-servers.net. i.root-servers.net. k.root-servers.net. h.root-servers.net. j.root-servers.net. d.root-servers.net. e.root-servers.net.
+Usage: /home/pi/UAVcast/script/./udp_redirect our-ip our-port send-to-ip send-to-port
+Usage: /home/pi/UAVcast/script/./udp_redirect our-ip our-port             # echo mode

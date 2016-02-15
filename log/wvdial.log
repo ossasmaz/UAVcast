@@ -1,0 +1,34 @@
+--> WvDial: Internet dialer version 1.61
+--> Initializing modem.
+--> Sending: ATZ
+ATZ
+OK
+--> Sending: ATE1
+ATE1
+OK
+--> Sending: AT+CGDCONT=1,"IP", "internet.public"
+AT+CGDCONT=1,"IP", "internet.public"
+OK
+--> Modem initialized.
+--> Sending: ATDT*99#
+--> Waiting for carrier.
+ATDT*99#
+CONNECT
+--> Carrier detected.  Starting PPP immediately.
+--> Starting pppd at Sat Feb  6 22:56:22 2016
+--> Pid of pppd: 2511
+--> Using interface ppp0
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> local  IP address 77.16.14.19
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> remote IP address 10.64.64.64
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> primary   DNS address 193.213.112.4
+--> pppd: Ð9I[01][18]<I[01]h<I[01]
+--> secondary DNS address 130.67.15.198
+--> pppd: Ð9I[01][18]<I[01]h<I[01]

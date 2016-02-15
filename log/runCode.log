@@ -1,0 +1,45 @@
+uqmi is not running
+Check if RPI is online anyway
+RPI Offline
+"No effect"
+network register
+Connecting 4G
+35986392
+Connected
+Internet Systems Consortium DHCP Client 4.2.2
+Copyright 2004-2011 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/wwan0/86:47:0d:fb:b1:a4
+Sending on   LPF/wwan0/86:47:0d:fb:b1:a4
+Sending on   Socket/fallback
+DHCPREQUEST on wwan0 to 255.255.255.255 port 67
+DHCPNAK from 77.18.139.249
+DHCPDISCOVER on wwan0 to 255.255.255.255 port 67 interval 5
+DHCPREQUEST on wwan0 to 255.255.255.255 port 67
+DHCPOFFER from 77.18.139.249
+DHCPACK from 77.18.139.249
+bound to 77.18.139.251 -- renewal in 3561 seconds.
+uqmi is not running
+Check if RPI is online anyway
+RPI is Online, starting APM
+APM started
+Setting pipeline to PAUSED ...
+Pipeline is PREROLLING ...
+/GstPipeline:pipeline0/GstH264Parse:h264parse0.GstPad:src: caps = "video/x-h264\,\ width\=\(int\)1280\,\ height\=\(int\)720\,\ framerate\=\(fraction\)0/1\,\ parsed\=\(boolean\)true\,\ stream-format\=\(string\)avc\,\ alignment\=\(string\)au\,\ level\=\(string\)4\,\ profile\=\(string\)high\,\ codec_data\=\(buffer\)01640028ffe1000e27640028ac2b402802dd00f1226a01000528ee025cb0"
+/GstPipeline:pipeline0/GstRtpH264Pay:rtph264pay0.GstPad:src: caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)H264\,\ sprop-parameter-sets\=\(string\)\"J2QAKKwrQCgC3QDxImo\\\=\\\,KO4CXLA\\\=\"\,\ payload\=\(int\)96\,\ ssrc\=\(uint\)644637902\,\ timestamp-offset\=\(uint\)220994140\,\ seqnum-offset\=\(uint\)24403"
+/GstPipeline:pipeline0/GstUDPSink:udpsink0.GstPad:sink: caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)H264\,\ sprop-parameter-sets\=\(string\)\"J2QAKKwrQCgC3QDxImo\\\=\\\,KO4CXLA\\\=\"\,\ payload\=\(int\)96\,\ ssrc\=\(uint\)644637902\,\ timestamp-offset\=\(uint\)220994140\,\ seqnum-offset\=\(uint\)24403"
+/GstPipeline:pipeline0/GstRtpH264Pay:rtph264pay0.GstPad:sink: caps = "video/x-h264\,\ width\=\(int\)1280\,\ height\=\(int\)720\,\ framerate\=\(fraction\)0/1\,\ parsed\=\(boolean\)true\,\ stream-format\=\(string\)avc\,\ alignment\=\(string\)au\,\ level\=\(string\)4\,\ profile\=\(string\)high\,\ codec_data\=\(buffer\)01640028ffe1000e27640028ac2b402802dd00f1226a01000528ee025cb0"
+/GstPipeline:pipeline0/GstRtpH264Pay:rtph264pay0: timestamp = 220994140
+/GstPipeline:pipeline0/GstRtpH264Pay:rtph264pay0: seqnum = 24403
+Pipeline is PREROLLED ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+gStremer Started
+Got EOS from element "pipeline0".
+Execution ended after 0:01:19.818754581
+Setting pipeline to PAUSED ...
+Setting pipeline to READY ...
+Setting pipeline to NULL ...
+Freeing pipeline ...
