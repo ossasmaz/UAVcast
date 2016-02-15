@@ -1,10 +1,11 @@
 # UAVcast
+Read more at:
+http://uavmatrix.com/viewpost/5/110/741/0/Raspberry-Pi/Ready-made-UAVcast-image-for-RPI2
 
 UAVcast uses regular software such as wvdial, inadyn. gstreamer, uqmi, and will fire up each program in the correct order users has defined in the DroneConfig.cfg file. 
  
 After you have successfully installed UAVcast and edited DroneConfig, you could simply start UAVcast by running DroneStart.sh
 If there is any problems during startup, then please check the logfile located in the /log category.
- 
  
  
 UAVcast Usage
