@@ -1,2 +1,9 @@
-Get:1 http://mirror.ox.ac.uk jessie InRelease [15.0 kB]
-Get:2 http://mirror.ox.ac.uk jessie/main armhf Packages [8,964 kB]
+Installing UAVcast including navio2
+Ign http://files.emlid.com armhf/ InRelease
+Ign http://files.emlid.com armhf/ Release.gpg
+Ign http://files.emlid.com armhf/ Release
+Err http://files.emlid.com armhf/ Packages
+  404  Not Found
+Ign http://files.emlid.com armhf/ Translation-en_GB
+Ign http://files.emlid.com armhf/ Translation-en
+Ign http://files.emlid.com armhf/ Translation-en_GB.UTF-8

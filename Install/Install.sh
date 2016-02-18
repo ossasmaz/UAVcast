@@ -3,7 +3,8 @@
 # Create a log file of the build as well as displaying the build on the tty as it runs
 exec > >(tee build_UAV.log)
 exec 2>&1
- 
+Navio=$1
+echo Installing UAVcast including $Navio
 ################# COMPILE UAV software ############
  
  
@@ -16,7 +17,22 @@ sudo apt-get install -y --force-yes build-essential dnsutils inadyn usb-modeswit
                                     cmake dh-autoreconf wvdial gstreamer1.0
                                     
 cd /home/pi
-        git clone https://github.com/UAVmatrix/UAVcast.git
+Lower=$(echo "$Navio" | tr '[:upper:]' '[:lower:]')
+echo $Lower 
+case $Lower in
+          "navio2")
+          echo Installing Navio2
+          wget 'http://files.emlid.com/apm/apm-navio2_3.3.2-rc2-beta-1.2_armhf.deb' -O apm-navio2.deb
+	  sudo dpkg -i apm-navio2.deb
+        ;;
+        "navio")
+          Installing Navio
+          wget 'http://files.emlid.com/apm/apm.deb' -O apm.deb
+          sudo dpkg -i apm.deb
+        ;;
+esac
+
+git clone https://github.com/UAVmatrix/UAVcast.git
 mkdir packages
 cd packages
 

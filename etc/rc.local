@@ -18,5 +18,5 @@ if [ "$_IP" ]; then
 fi
 #sudo inadyn &
 sleep 3
-sudo /home/pi/autoBoot/script/./runCode.sh > /home/pi/autoBoot/log/runCode.log 2>&1 &
+sudo /home/pi/UAVcast/script/./DroneCode.sh > /home/pi/UAVcast/log/DroneCode.log 2>&1 &
 exit 0
