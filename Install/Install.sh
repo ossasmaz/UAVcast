@@ -4,7 +4,7 @@
 exec > >(tee build_UAV.log)
 exec 2>&1
 Navio=$1
-echo Installing UAVcast including $Navio
+echo Installing UAVcast $Navio
 ################# COMPILE UAV software ############
  
  
