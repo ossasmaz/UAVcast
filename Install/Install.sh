@@ -32,7 +32,6 @@ case $Lower in
         ;;
 esac
 
-git clone https://github.com/UAVmatrix/UAVcast.git
 mkdir packages
 cd packages
 
