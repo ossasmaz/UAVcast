@@ -1,4 +1,4 @@
-Installing UAVcast including
+Installing UAVcast
 Ign http://files.emlid.com armhf/ InRelease
 Ign http://files.emlid.com armhf/ Release.gpg
 Ign http://files.emlid.com armhf/ Release
@@ -7,3 +7,668 @@ Err http://files.emlid.com armhf/ Packages
 Ign http://files.emlid.com armhf/ Translation-en_GB
 Ign http://files.emlid.com armhf/ Translation-en
 Ign http://files.emlid.com armhf/ Translation-en_GB.UTF-8
+Hit http://mirrordirector.raspbian.org jessie InRelease
+Hit http://mirrordirector.raspbian.org jessie/main armhf Packages
+Hit http://mirrordirector.raspbian.org jessie/contrib armhf Packages
+Hit http://mirrordirector.raspbian.org jessie/non-free armhf Packages
+Hit http://mirrordirector.raspbian.org jessie/rpi armhf Packages
+Ign http://mirrordirector.raspbian.org jessie/contrib Translation-en_GB
+Ign http://mirrordirector.raspbian.org jessie/contrib Translation-en
+Ign http://mirrordirector.raspbian.org jessie/contrib Translation-en_GB.UTF-8
+Ign http://mirrordirector.raspbian.org jessie/main Translation-en_GB
+Ign http://mirrordirector.raspbian.org jessie/main Translation-en
+Ign http://mirrordirector.raspbian.org jessie/main Translation-en_GB.UTF-8
+Ign http://mirrordirector.raspbian.org jessie/non-free Translation-en_GB
+Ign http://mirrordirector.raspbian.org jessie/non-free Translation-en
+Ign http://mirrordirector.raspbian.org jessie/non-free Translation-en_GB.UTF-8
+Ign http://mirrordirector.raspbian.org jessie/rpi Translation-en_GB
+Ign http://mirrordirector.raspbian.org jessie/rpi Translation-en
+Ign http://mirrordirector.raspbian.org jessie/rpi Translation-en_GB.UTF-8
+Hit http://archive.raspberrypi.org jessie InRelease
+Hit http://archive.raspberrypi.org jessie/main armhf Packages
+Hit http://archive.raspberrypi.org jessie/ui armhf Packages
+Ign http://archive.raspberrypi.org jessie/main Translation-en_GB
+Ign http://archive.raspberrypi.org jessie/main Translation-en
+Ign http://archive.raspberrypi.org jessie/main Translation-en_GB.UTF-8
+Ign http://archive.raspberrypi.org jessie/ui Translation-en_GB
+Ign http://archive.raspberrypi.org jessie/ui Translation-en
+Ign http://archive.raspberrypi.org jessie/ui Translation-en_GB.UTF-8
+W: Failed to fetch http://files.emlid.com/deb/armhf/Packages  404  Not Found
+
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version.
+cmake is already the newest version.
+dh-autoreconf is already the newest version.
+dnsutils is already the newest version.
+gstreamer1.0-alsa is already the newest version.
+gstreamer1.0-clutter is already the newest version.
+gstreamer1.0-doc is already the newest version.
+gstreamer1.0-fluendo-mp3 is already the newest version.
+gstreamer1.0-gnonlin is already the newest version.
+gstreamer1.0-gnonlin-dbg is already the newest version.
+gstreamer1.0-gnonlin-doc is already the newest version.
+gstreamer1.0-libav is already the newest version.
+gstreamer1.0-libav-dbg is already the newest version.
+gstreamer1.0-nice is already the newest version.
+gstreamer1.0-packagekit is already the newest version.
+gstreamer1.0-plugins-base is already the newest version.
+gstreamer1.0-plugins-base-apps is already the newest version.
+gstreamer1.0-plugins-base-dbg is already the newest version.
+gstreamer1.0-plugins-base-doc is already the newest version.
+gstreamer1.0-plugins-good is already the newest version.
+gstreamer1.0-plugins-good-dbg is already the newest version.
+gstreamer1.0-plugins-good-doc is already the newest version.
+gstreamer1.0-plugins-ugly is already the newest version.
+gstreamer1.0-plugins-ugly-dbg is already the newest version.
+gstreamer1.0-plugins-ugly-doc is already the newest version.
+gstreamer1.0-pulseaudio is already the newest version.
+gstreamer1.0-tools is already the newest version.
+gstreamer1.0-vaapi is already the newest version.
+gstreamer1.0-vaapi-doc is already the newest version.
+gstreamer1.0-x is already the newest version.
+inadyn is already the newest version.
+libgstreamer1.0-0 is already the newest version.
+libgstreamer1.0-0-dbg is already the newest version.
+libgstreamer1.0-dev is already the newest version.
+usb-modeswitch is already the newest version.
+wvdial is already the newest version.
+gstreamer1.0-omx is already the newest version.
+gstreamer1.0-omx-dbg is already the newest version.
+gstreamer1.0-plugins-bad is already the newest version.
+gstreamer1.0-plugins-bad-dbg is already the newest version.
+gstreamer1.0-plugins-bad-doc is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 56 not upgraded.
+
+Cloning into 'libubox'...
+Cloning into 'uqmi'...
+--2016-02-23 16:15:47--  https://s3.amazonaws.com/json-c_releases/releases/json-c-0.12.tar.gz
+Resolving s3.amazonaws.com (s3.amazonaws.com)... 54.231.9.128
+Connecting to s3.amazonaws.com (s3.amazonaws.com)|54.231.9.128|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 501419 (490K) [application/x-gzip]
+Saving to: ‘json-c-0.12.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 10%  204K 2s
+    50K .......... .......... .......... .......... .......... 20%  400K 1s
+   100K .......... .......... .......... .......... .......... 30%  410K 1s
+   150K .......... .......... .......... .......... .......... 40%  372K 1s
+   200K .......... .......... .......... .......... .......... 51%  464K 1s
+   250K .......... .......... .......... .......... .......... 61% 2.59M 0s
+   300K .......... .......... .......... .......... .......... 71%  430K 0s
+   350K .......... .......... .......... .......... .......... 81%  467K 0s
+   400K .......... .......... .......... .......... .......... 91% 1.84M 0s
+   450K .......... .......... .......... .........            100% 2.73M=1.0s
+
+2016-02-23 16:15:49 (482 KB/s) - ‘json-c-0.12.tar.gz’ saved [501419/501419]
+
+json-c-0.12
+json-c-0.12/.gitignore
+json-c-0.12/AUTHORS
+json-c-0.12/Android.configure.mk
+json-c-0.12/COPYING
+json-c-0.12/ChangeLog
+json-c-0.12/Doxyfile
+json-c-0.12/Makefile.am
+json-c-0.12/Makefile.am.inc
+json-c-0.12/NEWS
+json-c-0.12/README
+json-c-0.12/README-WIN32.html
+json-c-0.12/README.html
+json-c-0.12/RELEASE_CHECKLIST.txt
+json-c-0.12/arraylist.c
+json-c-0.12/arraylist.h
+json-c-0.12/autogen.sh
+json-c-0.12/bits.h
+json-c-0.12/config.h.in
+json-c-0.12/config.h.win32
+json-c-0.12/configure.ac
+json-c-0.12/debug.c
+json-c-0.12/debug.h
+json-c-0.12/json.h
+json-c-0.12/json-c-uninstalled.pc.in
+json-c-0.12/json-c.pc.in
+json-c-0.12/json-c.vcproj
+json-c-0.12/json_c_version.c
+json-c-0.12/json_c_version.h
+json-c-0.12/json_config.h.in
+json-c-0.12/json_inttypes.h
+json-c-0.12/json_object.c
+json-c-0.12/json_object.h
+json-c-0.12/json_object_iterator.c
+json-c-0.12/json_object_iterator.h
+json-c-0.12/json_object_private.h
+json-c-0.12/json_tokener.c
+json-c-0.12/json_tokener.h
+json-c-0.12/json_util.c
+json-c-0.12/json_util.h
+json-c-0.12/libjson.c
+json-c-0.12/linkhash.c
+json-c-0.12/linkhash.h
+json-c-0.12/math_compat.h
+json-c-0.12/printbuf.c
+json-c-0.12/printbuf.h
+json-c-0.12/random_seed.c
+json-c-0.12/random_seed.h
+json-c-0.12/tests
+json-c-0.12/tests/Makefile.am
+json-c-0.12/tests/parse_flags.c
+json-c-0.12/tests/parse_flags.h
+json-c-0.12/tests/test-defs.sh
+json-c-0.12/tests/test1.c
+json-c-0.12/tests/test1.expected
+json-c-0.12/tests/test1.test
+json-c-0.12/tests/test1Formatted_plain.expected
+json-c-0.12/tests/test1Formatted_pretty.expected
+json-c-0.12/tests/test1Formatted_spaced.expected
+json-c-0.12/tests/test2.c
+json-c-0.12/tests/test2.expected
+json-c-0.12/tests/test2.test
+json-c-0.12/tests/test2Formatted_plain.expected
+json-c-0.12/tests/test2Formatted_pretty.expected
+json-c-0.12/tests/test2Formatted_spaced.expected
+json-c-0.12/tests/test4.c
+json-c-0.12/tests/test4.test
+json-c-0.12/tests/test4.expected
+json-c-0.12/tests/testReplaceExisting.c
+json-c-0.12/tests/testReplaceExisting.expected
+json-c-0.12/tests/testReplaceExisting.test
+json-c-0.12/tests/test_cast.c
+json-c-0.12/tests/test_cast.expected
+json-c-0.12/tests/test_cast.test
+json-c-0.12/tests/test_charcase.c
+json-c-0.12/tests/test_charcase.expected
+json-c-0.12/tests/test_charcase.test
+json-c-0.12/tests/test_locale.c
+json-c-0.12/tests/test_locale.expected
+json-c-0.12/tests/test_locale.test
+json-c-0.12/tests/test_null.c
+json-c-0.12/tests/test_null.expected
+json-c-0.12/tests/test_null.test
+json-c-0.12/tests/test_parse.c
+json-c-0.12/tests/test_parse.expected
+json-c-0.12/tests/test_parse.test
+json-c-0.12/tests/test_parse_int64.c
+json-c-0.12/tests/test_parse_int64.expected
+json-c-0.12/tests/test_parse_int64.test
+json-c-0.12/tests/test_printbuf.c
+json-c-0.12/tests/test_printbuf.expected
+json-c-0.12/tests/test_printbuf.test
+json-c-0.12/tests/test_set_serializer.c
+json-c-0.12/tests/test_set_serializer.expected
+json-c-0.12/tests/test_set_serializer.test
+json-c-0.12/tests/Makefile.in
+json-c-0.12/aclocal.m4
+json-c-0.12/configure
+json-c-0.12/ltmain.sh
+json-c-0.12/compile
+json-c-0.12/config.guess
+json-c-0.12/config.sub
+json-c-0.12/install-sh
+json-c-0.12/missing
+json-c-0.12/INSTALL
+json-c-0.12/depcomp
+json-c-0.12/Makefile.in
+json-c-0.12/test-driver
+json-c-0.12/doc
+json-c-0.12/doc/html
+json-c-0.12/doc/html/tabs.css
+json-c-0.12/doc/html/jquery.js
+json-c-0.12/doc/html/dynsections.js
+json-c-0.12/doc/html/tab_a.png
+json-c-0.12/doc/html/tab_b.png
+json-c-0.12/doc/html/tab_h.png
+json-c-0.12/doc/html/tab_s.png
+json-c-0.12/doc/html/nav_h.png
+json-c-0.12/doc/html/nav_f.png
+json-c-0.12/doc/html/bc_s.png
+json-c-0.12/doc/html/doxygen.png
+json-c-0.12/doc/html/closed.png
+json-c-0.12/doc/html/open.png
+json-c-0.12/doc/html/bdwn.png
+json-c-0.12/doc/html/sync_on.png
+json-c-0.12/doc/html/sync_off.png
+json-c-0.12/doc/html/nav_g.png
+json-c-0.12/doc/html/ftv2blank.png
+json-c-0.12/doc/html/ftv2doc.png
+json-c-0.12/doc/html/ftv2folderclosed.png
+json-c-0.12/doc/html/ftv2folderopen.png
+json-c-0.12/doc/html/ftv2ns.png
+json-c-0.12/doc/html/ftv2mo.png
+json-c-0.12/doc/html/ftv2cl.png
+json-c-0.12/doc/html/ftv2lastnode.png
+json-c-0.12/doc/html/ftv2link.png
+json-c-0.12/doc/html/ftv2mlastnode.png
+json-c-0.12/doc/html/ftv2mnode.png
+json-c-0.12/doc/html/ftv2node.png
+json-c-0.12/doc/html/ftv2plastnode.png
+json-c-0.12/doc/html/ftv2pnode.png
+json-c-0.12/doc/html/ftv2vertline.png
+json-c-0.12/doc/html/ftv2splitbar.png
+json-c-0.12/doc/html/doxygen.css
+json-c-0.12/doc/html/arraylist_8h.html
+json-c-0.12/doc/html/bits_8h.html
+json-c-0.12/doc/html/debug_8h.html
+json-c-0.12/doc/html/json_8h.html
+json-c-0.12/doc/html/json__c__version_8h.html
+json-c-0.12/doc/html/json__inttypes_8h.html
+json-c-0.12/doc/html/deprecated.html
+json-c-0.12/doc/html/json__object_8h.html
+json-c-0.12/doc/html/json__object__iterator_8h.html
+json-c-0.12/doc/html/json__object__private_8h.html
+json-c-0.12/doc/html/json__tokener_8h.html
+json-c-0.12/doc/html/json__util_8h.html
+json-c-0.12/doc/html/linkhash_8h.html
+json-c-0.12/doc/html/math__compat_8h.html
+json-c-0.12/doc/html/printbuf_8h.html
+json-c-0.12/doc/html/random__seed_8h.html
+json-c-0.12/doc/html/structarray__list.html
+json-c-0.12/doc/html/structjson__object.html
+json-c-0.12/doc/html/unionjson__object_1_1data.html
+json-c-0.12/doc/html/structjson__object__iter.html
+json-c-0.12/doc/html/structjson__object__iterator.html
+json-c-0.12/doc/html/structlh__entry.html
+json-c-0.12/doc/html/structjson__tokener.html
+json-c-0.12/doc/html/structjson__tokener__srec.html
+json-c-0.12/doc/html/structlh__table.html
+json-c-0.12/doc/html/structprintbuf.html
+json-c-0.12/doc/html/index.html
+json-c-0.12/doc/html/pages.html
+json-c-0.12/doc/html/annotated.html
+json-c-0.12/doc/html/classes.html
+json-c-0.12/doc/html/functions.html
+json-c-0.12/doc/html/functions_vars.html
+json-c-0.12/doc/html/files.html
+json-c-0.12/doc/html/globals.html
+json-c-0.12/doc/html/globals_0x61.html
+json-c-0.12/doc/html/globals_0x65.html
+json-c-0.12/doc/html/globals_0x66.html
+json-c-0.12/doc/html/globals_0x68.html
+json-c-0.12/doc/html/globals_0x69.html
+json-c-0.12/doc/html/globals_0x6a.html
+json-c-0.12/doc/html/globals_0x6c.html
+json-c-0.12/doc/html/globals_0x6d.html
+json-c-0.12/doc/html/globals_0x70.html
+json-c-0.12/doc/html/globals_0x73.html
+json-c-0.12/doc/html/globals_0x74.html
+json-c-0.12/doc/html/globals_func.html
+json-c-0.12/doc/html/globals_vars.html
+json-c-0.12/doc/html/globals_type.html
+json-c-0.12/doc/html/globals_enum.html
+json-c-0.12/doc/html/globals_eval.html
+json-c-0.12/doc/html/globals_defs.html
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+RDRAND Hardware RNG Hash Seed disabled. Use --enable-rdrand to enable
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for strings.h... (cached) yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking sys/cdefs.h usability... yes
+checking sys/cdefs.h presence... yes
+checking for sys/cdefs.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking for inttypes.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for working memcmp... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for vasprintf... yes
+checking for open... yes
+checking for vsyslog... yes
+checking for strncasecmp... yes
+checking for setlocale... yes
+checking whether INFINITY is declared... yes
+checking whether nan is declared... yes
+checking whether isnan is declared... yes
+checking whether isinf is declared... yes
+checking whether _isnan is declared... no
+checking whether _finite is declared... no
+checking if .gnu.warning accepts long strings... no
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for -Bsymbolic-functions linker flag... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating json-c.pc
+config.status: creating tests/Makefile
+config.status: creating json-c-uninstalled.pc
+config.status: creating config.h
+config.status: creating json_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/pi/packages/json-c-0.12/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/bash ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Entering directory '/home/pi/packages/json-c-0.12'
+Making all in .
+make[2]: Entering directory '/home/pi/packages/json-c-0.12'
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT arraylist.lo -MD -MP -MF .deps/arraylist.Tpo -c -o arraylist.lo arraylist.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT arraylist.lo -MD -MP -MF .deps/arraylist.Tpo -c arraylist.c  -fPIC -DPIC -o .libs/arraylist.o
+mv -f .deps/arraylist.Tpo .deps/arraylist.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c -o debug.lo debug.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT debug.lo -MD -MP -MF .deps/debug.Tpo -c debug.c  -fPIC -DPIC -o .libs/debug.o
+mv -f .deps/debug.Tpo .deps/debug.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_c_version.lo -MD -MP -MF .deps/json_c_version.Tpo -c -o json_c_version.lo json_c_version.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_c_version.lo -MD -MP -MF .deps/json_c_version.Tpo -c json_c_version.c  -fPIC -DPIC -o .libs/json_c_version.o
+mv -f .deps/json_c_version.Tpo .deps/json_c_version.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_object.lo -MD -MP -MF .deps/json_object.Tpo -c -o json_object.lo json_object.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_object.lo -MD -MP -MF .deps/json_object.Tpo -c json_object.c  -fPIC -DPIC -o .libs/json_object.o
+mv -f .deps/json_object.Tpo .deps/json_object.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_object_iterator.lo -MD -MP -MF .deps/json_object_iterator.Tpo -c -o json_object_iterator.lo json_object_iterator.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_object_iterator.lo -MD -MP -MF .deps/json_object_iterator.Tpo -c json_object_iterator.c  -fPIC -DPIC -o .libs/json_object_iterator.o
+mv -f .deps/json_object_iterator.Tpo .deps/json_object_iterator.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_tokener.lo -MD -MP -MF .deps/json_tokener.Tpo -c -o json_tokener.lo json_tokener.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_tokener.lo -MD -MP -MF .deps/json_tokener.Tpo -c json_tokener.c  -fPIC -DPIC -o .libs/json_tokener.o
+json_tokener.c: In function ‘json_tokener_parse_ex’:
+json_tokener.c:355:6: warning: variable ‘size’ set but not used [-Wunused-but-set-variable]
+  int size;
+      ^
+mv -f .deps/json_tokener.Tpo .deps/json_tokener.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_util.lo -MD -MP -MF .deps/json_util.Tpo -c -o json_util.lo json_util.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT json_util.lo -MD -MP -MF .deps/json_util.Tpo -c json_util.c  -fPIC -DPIC -o .libs/json_util.o
+mv -f .deps/json_util.Tpo .deps/json_util.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT linkhash.lo -MD -MP -MF .deps/linkhash.Tpo -c -o linkhash.lo linkhash.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT linkhash.lo -MD -MP -MF .deps/linkhash.Tpo -c linkhash.c  -fPIC -DPIC -o .libs/linkhash.o
+mv -f .deps/linkhash.Tpo .deps/linkhash.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT printbuf.lo -MD -MP -MF .deps/printbuf.Tpo -c -o printbuf.lo printbuf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT printbuf.lo -MD -MP -MF .deps/printbuf.Tpo -c printbuf.c  -fPIC -DPIC -o .libs/printbuf.o
+mv -f .deps/printbuf.Tpo .deps/printbuf.Plo
+/bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT random_seed.lo -MD -MP -MF .deps/random_seed.Tpo -c -o random_seed.lo random_seed.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -Wall -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -MT random_seed.lo -MD -MP -MF .deps/random_seed.Tpo -c random_seed.c  -fPIC -DPIC -o .libs/random_seed.o
+mv -f .deps/random_seed.Tpo .deps/random_seed.Plo
+/bin/bash ./libtool  --tag=CC   --mode=link gcc -Wall  -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -std=gnu99 -D_GNU_SOURCE -D_REENTRANT -g -O2 -version-info 2:1:0 -no-undefined -Wl,-Bsymbolic-functions  -o libjson-c.la -rpath /usr/lib arraylist.lo debug.lo json_c_version.lo json_object.lo json_object_iterator.lo json_tokener.lo json_util.lo linkhash.lo printbuf.lo random_seed.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/arraylist.o .libs/debug.o .libs/json_c_version.o .libs/json_object.o .libs/json_object_iterator.o .libs/json_tokener.o .libs/json_util.o .libs/linkhash.o .libs/printbuf.o .libs/random_seed.o    -O2 -Wl,-Bsymbolic-functions   -Wl,-soname -Wl,libjson-c.so.2 -o .libs/libjson-c.so.2.0.1
+libtool: link: (cd ".libs" && rm -f "libjson-c.so.2" && ln -s "libjson-c.so.2.0.1" "libjson-c.so.2")
+libtool: link: (cd ".libs" && rm -f "libjson-c.so" && ln -s "libjson-c.so.2.0.1" "libjson-c.so")
+libtool: link: ( cd ".libs" && rm -f "libjson-c.la" && ln -s "../libjson-c.la" "libjson-c.la" )
+make[2]: Leaving directory '/home/pi/packages/json-c-0.12'
+Making all in tests
+make[2]: Entering directory '/home/pi/packages/json-c-0.12/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/pi/packages/json-c-0.12/tests'
+make[1]: Leaving directory '/home/pi/packages/json-c-0.12'
+Making install in .
+make[1]: Entering directory '/home/pi/packages/json-c-0.12'
+make[2]: Entering directory '/home/pi/packages/json-c-0.12'
+ /bin/mkdir -p '/usr/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libjson-c.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libjson-c.so.2.0.1 /usr/lib/libjson-c.so.2.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libjson-c.so.2.0.1 libjson-c.so.2 || { rm -f libjson-c.so.2 && ln -s libjson-c.so.2.0.1 libjson-c.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libjson-c.so.2.0.1 libjson-c.so || { rm -f libjson-c.so && ln -s libjson-c.so.2.0.1 libjson-c.so; }; })
+libtool: install: /usr/bin/install -c .libs/libjson-c.lai /usr/lib/libjson-c.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/json-c'
+ /usr/bin/install -c -m 644 arraylist.h bits.h debug.h json.h json_config.h json_c_version.h json_inttypes.h json_object.h json_object_iterator.h json_object_private.h json_tokener.h json_util.h linkhash.h printbuf.h random_seed.h '/usr/include/json-c'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 json-c.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/home/pi/packages/json-c-0.12'
+make[1]: Leaving directory '/home/pi/packages/json-c-0.12'
+Making install in tests
+make[1]: Entering directory '/home/pi/packages/json-c-0.12/tests'
+make[2]: Entering directory '/home/pi/packages/json-c-0.12/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/pi/packages/json-c-0.12/tests'
+make[1]: Leaving directory '/home/pi/packages/json-c-0.12/tests'
+-- The C compiler identification is GNU 4.9.2
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.28") 
+-- checking for modules 'json-c;json'
+--   package 'json' not found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/packages/libubox
+Scanning dependencies of target ubox
+[  3%] Building C object CMakeFiles/ubox.dir/avl.c.o
+[  6%] Building C object CMakeFiles/ubox.dir/avl-cmp.c.o
+[  9%] Building C object CMakeFiles/ubox.dir/blob.c.o
+[ 12%] Building C object CMakeFiles/ubox.dir/blobmsg.c.o
+[ 16%] Building C object CMakeFiles/ubox.dir/uloop.c.o
+[ 19%] Building C object CMakeFiles/ubox.dir/usock.c.o
+[ 22%] Building C object CMakeFiles/ubox.dir/ustream.c.o
+[ 25%] Building C object CMakeFiles/ubox.dir/ustream-fd.c.o
+[ 29%] Building C object CMakeFiles/ubox.dir/vlist.c.o
+[ 32%] Building C object CMakeFiles/ubox.dir/utils.c.o
+[ 35%] Building C object CMakeFiles/ubox.dir/safe_list.c.o
+[ 38%] Building C object CMakeFiles/ubox.dir/runqueue.c.o
+[ 41%] Building C object CMakeFiles/ubox.dir/md5.c.o
+[ 45%] Building C object CMakeFiles/ubox.dir/ulog.c.o
+Linking C shared library libubox.so
+[ 45%] Built target ubox
+Scanning dependencies of target blobmsg_json
+[ 48%] Building C object CMakeFiles/blobmsg_json.dir/blobmsg_json.c.o
+Linking C shared library libblobmsg_json.so
+[ 48%] Built target blobmsg_json
+Scanning dependencies of target jshn
+[ 51%] Building C object CMakeFiles/jshn.dir/jshn.c.o
+Linking C executable jshn
+[ 51%] Built target jshn
+Scanning dependencies of target json_script
+[ 54%] Building C object CMakeFiles/json_script.dir/json_script.c.o
+Linking C shared library libjson_script.so
+[ 54%] Built target json_script
+Scanning dependencies of target ubox-static
+[ 58%] Building C object CMakeFiles/ubox-static.dir/avl.c.o
+[ 61%] Building C object CMakeFiles/ubox-static.dir/avl-cmp.c.o
+[ 64%] Building C object CMakeFiles/ubox-static.dir/blob.c.o
+[ 67%] Building C object CMakeFiles/ubox-static.dir/blobmsg.c.o
+[ 70%] Building C object CMakeFiles/ubox-static.dir/uloop.c.o
+[ 74%] Building C object CMakeFiles/ubox-static.dir/usock.c.o
+[ 77%] Building C object CMakeFiles/ubox-static.dir/ustream.c.o
+[ 80%] Building C object CMakeFiles/ubox-static.dir/ustream-fd.c.o
+[ 83%] Building C object CMakeFiles/ubox-static.dir/vlist.c.o
+[ 87%] Building C object CMakeFiles/ubox-static.dir/utils.c.o
+[ 90%] Building C object CMakeFiles/ubox-static.dir/safe_list.c.o
+[ 93%] Building C object CMakeFiles/ubox-static.dir/runqueue.c.o
+[ 96%] Building C object CMakeFiles/ubox-static.dir/md5.c.o
+[100%] Building C object CMakeFiles/ubox-static.dir/ulog.c.o
+Linking C static library libubox.a
+[100%] Built target ubox-static
+[ 45%] Built target ubox
+[ 48%] Built target blobmsg_json
+[ 51%] Built target jshn
+[ 54%] Built target json_script
+[100%] Built target ubox-static
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/include/libubox/avl.h
+-- Installing: /usr/local/include/libubox/blob.h
+-- Installing: /usr/local/include/libubox/runqueue.h
+-- Installing: /usr/local/include/libubox/utils.h
+-- Installing: /usr/local/include/libubox/avl-cmp.h
+-- Installing: /usr/local/include/libubox/ulog.h
+-- Installing: /usr/local/include/libubox/blobmsg_json.h
+-- Installing: /usr/local/include/libubox/ustream.h
+-- Installing: /usr/local/include/libubox/md5.h
+-- Installing: /usr/local/include/libubox/usock.h
+-- Installing: /usr/local/include/libubox/vlist.h
+-- Installing: /usr/local/include/libubox/uloop.h
+-- Installing: /usr/local/include/libubox/json_script.h
+-- Installing: /usr/local/include/libubox/blobmsg.h
+-- Installing: /usr/local/include/libubox/safe_list.h
+-- Installing: /usr/local/include/libubox/list.h
+-- Installing: /usr/local/lib/libubox.so
+-- Installing: /usr/local/lib/libubox.a
+-- Installing: /usr/local/lib/libblobmsg_json.so
+-- Removed runtime path from "/usr/local/lib/libblobmsg_json.so"
+-- Installing: /usr/local/bin/jshn
+-- Installing: /usr/local/lib/libjson_script.so
+-- Removed runtime path from "/usr/local/lib/libjson_script.so"
+-- Installing: /usr/local/share/libubox/jshn.sh
+-- The C compiler identification is GNU 4.9.2
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/packages/uqmi
+Scanning dependencies of target gen-headers
+[  3%] Generating qmi-message-ctl.h
+[  7%] Generating qmi-message-dms.h
+[ 11%] Generating qmi-message-nas.h
+[ 15%] Generating qmi-message-pds.h
+[ 19%] Generating qmi-message-wds.h
+[ 23%] Generating qmi-message-wms.h
+[ 26%] Generating qmi-message-wda.h
+[ 26%] Built target gen-headers
+Scanning dependencies of target gen-errors
+[ 30%] Generating qmi-errors.c
+[ 30%] Built target gen-errors
+[ 34%] Generating qmi-message-wda.c
+[ 38%] Generating qmi-message-ctl.c
+[ 42%] Generating qmi-message-dms.c
+[ 46%] Generating qmi-message-nas.c
+[ 50%] Generating qmi-message-pds.c
+[ 53%] Generating qmi-message-wds.c
+[ 57%] Generating qmi-message-wms.c
+Scanning dependencies of target uqmi
+[ 61%] Building C object CMakeFiles/uqmi.dir/main.c.o
+[ 65%] Building C object CMakeFiles/uqmi.dir/dev.c.o
+[ 69%] Building C object CMakeFiles/uqmi.dir/commands.c.o
+[ 73%] Building C object CMakeFiles/uqmi.dir/qmi-message.c.o
+[ 76%] Building C object CMakeFiles/uqmi.dir/qmi-message-ctl.c.o
+[ 80%] Building C object CMakeFiles/uqmi.dir/qmi-message-dms.c.o
+[ 84%] Building C object CMakeFiles/uqmi.dir/qmi-message-nas.c.o
+[ 88%] Building C object CMakeFiles/uqmi.dir/qmi-message-pds.c.o
+[ 92%] Building C object CMakeFiles/uqmi.dir/qmi-message-wds.c.o
+[ 96%] Building C object CMakeFiles/uqmi.dir/qmi-message-wms.c.o
+[100%] Building C object CMakeFiles/uqmi.dir/qmi-message-wda.c.o
+Linking C executable uqmi
+[100%] Built target uqmi
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/sbin/uqmi
+-- Removed runtime path from "/usr/local/sbin/uqmi"
