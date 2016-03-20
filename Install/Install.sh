@@ -10,7 +10,7 @@ echo Installing UAVcast $Navio
  
 # Update and Upgrade the Pi, otherwise the build may fail due to inconsistencies
  
-sudo apt-get update && sudo apt-get upgrade -y --force-yes
+sudo apt-get update -y --force-yes
 
 # Get the required libraries
 sudo apt-get install -y --force-yes build-essential dnsutils inadyn usb-modeswitch \
